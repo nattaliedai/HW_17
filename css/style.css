@@ -1,7 +1,6 @@
 .navigation {
     display: flex; 
     justify-content: space-between; 
-    background-color: #e2e2e2;
     height: 100px;
 }
 .navigation img {
@@ -32,13 +31,18 @@
     display: none;
 }
 .about {
+    text-align: center; 
+    font-size: 36px; 
+    font-family: 'Work Sans', sans-serif;
+}
+.aboutdescription {
     margin: 0 auto;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.about p {
+.aboutdescription p {
     line-height: 2.0;
     text-align: center; 
     font-size: 24px; 
@@ -46,7 +50,7 @@
 }
 .footer {
     text-align: center; 
-    margin-top: 10px; 
+    margin-top: 80px; 
     padding-top: 10px; 
     padding-bottom: 10px; 
     background-color: #6B6B6B;
@@ -70,12 +74,5 @@
     }
     .navigation .menu .menuoptions {
         display: none;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .about p {
-        line-height: 2.0; 
-        font-size: 18px; 
-        font-family: 'Work Sans', sans-serif;
     }
 }
