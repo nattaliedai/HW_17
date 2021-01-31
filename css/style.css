@@ -37,16 +37,17 @@
 }
 .aboutdescription {
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.aboutdescription img {
+    padding-top: 35px;
 }
 .aboutdescription p {
     line-height: 2.0;
     font-size: 24px; 
     font-family: 'Work Sans', sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .footer {
     text-align: center; 
@@ -74,5 +75,17 @@
     }
     .navigation .menu .menuoptions {
         display: none;
+    }
+    .aboutdescription {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutdescription p {
+        line-height: 2.0;
+        font-size: 24px; 
+        font-family: 'Work Sans', sans-serif;
+        padding-left: 30px;
     }
 }
